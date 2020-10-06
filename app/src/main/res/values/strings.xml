@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Latvsga_tugas8_latihanstorage</string>
+    <string name="tugas_8_fitria_sari">TUGAS 8 FITRIA SARI</string>
+    <string name="external_storage_storage">External Storage Storage</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="latihan_persistence">LATIHAN PERSISTENCE</string>
+    <string name="buat_file">BUAT FILE</string>
+    <string name="ubah_file">UBAH FILE</string>
+    <string name="hapus_file">HAPUS FILE</string>
+    <string name="hasil_baca_file">HASIL BACA FILE</string>
+    <string name="file_not_found">File Not Found!</string>
+    <string name="filenotfound">file not found!</string>
+</resources>

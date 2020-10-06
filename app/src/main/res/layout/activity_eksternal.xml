@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EksternalActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagian Eksternal Storage"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnbuatfileeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buat_file" />
+
+    <Button
+        android:id="@+id/btnubahfileeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ubah_file" />
+
+    <Button
+        android:id="@+id/btnbacafileeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACA FILE" />
+
+    <Button
+        android:id="@+id/btnhapusfileeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hapus_file" />
+
+    <TextView
+        android:id="@+id/textbacafileeks"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="#c7c0c0"
+        tools:text="@string/hasil_baca_file" />
+
+</LinearLayout>
